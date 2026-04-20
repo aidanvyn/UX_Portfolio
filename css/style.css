@@ -4,7 +4,6 @@
     color: inherit;
 }
 
-
 body{
     /*
     background-image: url("../images/tiltedLines.JPG");
@@ -32,14 +31,12 @@ header {
     justify-content: space-between;
 }
 
-/* keep nav aligned right */
 .navbar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-/* remove default ul spacing */
 .nav-links {
     margin: 0;
     padding: 2rem;
@@ -94,7 +91,6 @@ header {
     pointer-events: auto;
 }
 
-/* close button row */
 .nav-close {
     display: flex;
     justify-content: flex-start;
@@ -194,20 +190,16 @@ footer li {
     flex: 0 0 auto;
 }
 
-/* remove bullets + spacing */
 footer ul {
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
 
-/* space between links */
 footer li {
     margin: 0.5rem 0;
 }
 
-/* optional: heading spacing */
 footer h4 {
     margin-bottom: 1rem;
 }
@@ -280,7 +272,6 @@ footer h4 {
 }
 
 /* this reverses it */
-
 .info-cards article:nth-child(even) {
     flex-direction: row-reverse;
 }
@@ -306,14 +297,12 @@ footer h4 {
 }
 
 /* PROJECT PAGE STYLING */
-/* project title */
 body > h1 {
     text-align: center;
     margin: 3rem 5% 1rem 5%;
     font-size: 2.5rem;
 }
 
-/* metadata row */
 .metadata {
     text-align: center;
     margin-bottom: 3rem;
