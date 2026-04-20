@@ -55,7 +55,7 @@ header {
     display: flex;
     flex-direction: column;
 
-    transition: left 0.3s ease;
+    transition: right 0.3s ease;
     z-index: 1001;
 }
 
@@ -72,7 +72,7 @@ header {
     background: none;
     border: none;
     cursor: pointer;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 /* overlay */
@@ -381,4 +381,48 @@ body > h1 {
   display: flex;
   justify-content: center; 
   align-items: center; 
+  padding-bottom: 2rem;
+}
+
+/* Button media query */
+@media (min-width: 768px) {
+
+    /* hide the hamburger */
+    .toggle-btn {
+        display: none;
+    }
+
+    /* remove slide panel option */
+    .nav-links {
+        position: static;
+        height: auto;
+        width: auto;
+        right: auto;
+
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+
+        padding: 0;
+        background: transparent;
+    }
+
+    /* remove closing button */
+    .nav-close {
+        display: none;
+    }
+
+    /* remove da overlay */
+    .nav-overlay {
+        display: none;
+    }
+
+    .nav-links li {
+        padding: 0;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
