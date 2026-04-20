@@ -452,3 +452,20 @@ main > h1 {
         color: inherit;
     }
 }
+
+/* Motion */
+@media (prefers-reduced-motion: reduce) {
+
+    .Main-text {
+        transition: none;
+    }
+
+    .Main-text:hover {
+        transform: none;
+    }
+
+    .Main-text h2,
+    .Main-text p {
+        transform: none;
+    }
+}
