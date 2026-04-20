@@ -305,3 +305,91 @@ footer h4 {
     font-size: 2rem;
 }
 
+/* PROJECT PAGE STYLING */
+/* project title */
+body > h1 {
+    text-align: center;
+    margin: 3rem 5% 1rem 5%;
+    font-size: 2.5rem;
+}
+
+/* metadata row */
+.metadata {
+    text-align: center;
+    margin-bottom: 3rem;
+    opacity: 0.8;
+}
+
+.summary,
+.starting-point,
+.problem-solving,
+.implementation,
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 5%;
+}
+
+.summary h2,
+.starting-point h2,
+.problem-solving h2,
+.implementation h2,
+.results h2 {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.summary p,
+.starting-point p,
+.problem-solving p,
+.implementation p,
+.results p {
+    flex: 1 1 40%;
+    line-height: 1.6;
+}
+
+.summary-image,
+.starting-point-image,
+.problem-solving-image,
+.implementation-image,
+.results-image {
+    flex: 1 1 50%;
+}
+
+.summary img,
+.starting-point img,
+.problem-solving img,
+.implementation img,
+.results img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.summary,
+.starting-point,
+.problem-solving,
+.implementation,
+.results {
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.summary-image,
+.starting-point-image,
+.problem-solving-image,
+.implementation-image,
+.results-image {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.iframe-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
