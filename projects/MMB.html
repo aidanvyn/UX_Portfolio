@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MMB Redesign Project</title>
 </head>
@@ -13,40 +13,102 @@
         <div class="header-content">
             <h1><a href="../index.html">Aidan Vyn</a></h1>
             <nav class="navbar">
-            <!-- Toggle button (Hamburger icon) -->
-            <button class="toggle-btn" id="menuToggle">☰</button>
-            <!-- Navigation Links -->
-            <ul class="nav-links" id="navLinks">
-                <li><a href="pages/work.html">All Work</a></li>
-                <li><a href="pages/about.html">About Me</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
+                <!-- Toggle button (Hamburger icon) -->
+                <button class="toggle-btn" id="menuToggle">☰</button>
+                
+                <div class="nav-overlay" id="navOverlay"></div>
+
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="navLinks">
+                    <li class="nav-close">
+                        <button class="close-button" id="closeButton">✕</button>
+                    </li>
+                    <li><a href="../pages/work.html">All Work</a></li>
+                    <li><a href="../pages/about.html">About Me</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
             </nav>
-
-
         </div>
-  </header>
+    </header>
 
   <h1>Michigan Marching Band Website Redesign</h1>
 
-  <!--Image-->
-  
-  <div class="metadata">
-    <p>Dates: January 12 to March 9, 2026</p>
-  </div>
+    <div class="metadata">
+        <p>Dates: January 12 to March 9, 2026</p>
+    </div>
 
-  <div class="summary">
-    <p>Redesigning the Michigan Marching Band's website, with a focus on navigation, first time users, and a unique shopping experience. Get a quick summary from a presentation.</p>
-  </div>
+    <div class="summary">
+        <h2>Summary</h2>
+        <p>Redesigning the Michigan Marching Band's website, with a focus on navigation, first time users, and a unique shopping experience. Get a quick summary from a presentation.</p>
+        <div class="summary-image">
+            <img src="../images/MMB-summary.png" alt="Summary of designs, showing off a mobile, tablet, and desktop image">
+        </div>
+    </div>
 
-  <div class="starting-point">
-    <p>The current site contains all necessary information for potential band students, alumni, and the casual fan, but sometimes displays it in a non-intuitive way. </p>
-    <p>Overall navigation and most frequented resources were not prioritized on the site.</p>
-    <p>To start, we created a button component library that follows U-M's style guide, and performed a competitive analysis looking at other B1G Ten schools.</p>
+    <div class="starting-point">
+        <h2>Starting Point</h2>
+        <p>The current site contains all necessary information for potential band students, alumni, and the casual fan, but sometimes displays it in a non-intuitive way.</p>
+        <p>Overall navigation and most frequented resources were not prioritized on the site.</p>
+        <p>To start, we created a button component library that follows U-M's style guide, and performed a competitive analysis looking at other B1G Ten schools.</p>
 
-    <div class="starting-point-image">
-      <!-- image-->
-  </div>
+        <div class="starting-point-image">
+            <img src="../images/MMB_Comp.png" alt="Comparision chart showing the MMB's website qualities against other B1G schools">
+        </div>
+    </div>
 
+    <div class="problem-solving">
+        <h2>Problem Solving</h2>
+        <p>We had 3 specific goals with this redesign:</p>
+        <p>Modernize and refresh, restructure information architecture, and show off the MMB.</p>
+        <p>To start this procress, our team created templates for simple use later on in the design process.</p>
 
+        <div class="problem-solving-image">
+            <img src="../images/MMB-problem-solving.png" alt="Long frame of templates that were reused throughout the design process">
+        </div>
+    </div>
+
+    <div class="implementation">
+        <h2>Implementation</h2>
+        <p>Our design focused on and improved 4 crucial areas:</p>
+        <p>Improved Navigation and IA - Condensed information in the navbar, added simple shop filters, and reorganized product page hierarchy to improve user flow throughout the site.</p>
+        <p>Modern Elements - Added modern design elements to enhance the site's visual presentation. Dark mode, blurred/transparent cards, & large visual callout sections help MMB stand out from competitors.</p>
+        <p>Enhanced Responsiveness - Developed over desktop, tablet, and mobile breakpoints, maintaining clear navigation and consistency across device sizes.</p>
+        <p>Restructured Audition page - Prioritized first-time users' understanding of the audition process while sparking enthusiasm through imagery of recent MMB experiences.</p>
+        
+        <div class="implementation-image">
+            <img src="../images/MMB-implementation.png" alt="2 tablet frames of the 404 page, showing off light and dark mode, along with a desktop design">
+        </div>
+    </div>
+
+    <div class="results">
+        <h2>Results</h2>
+        <p>The new design has a revamped home, audition, shop, and checkout pages.</p>
+        <p>The designs simplify the audition process for incoming students, and use exciting imagery to users excited about joining the Michigan Marching Band.</p>
+
+        <div class="results-image">
+            <img src="../images/MMB-results.png" alt="4 final frames from the MMB Website Redesign">
+        </div>
+    </div>
+
+  <footer>
+        <div class="footer-list1">
+            <h4>Pages</h4>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/work.html">All Work</a></li>
+                    <li><a href="../pages/about.html">About Me</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+        </div>
+        <div class="footer-list2">
+            <h4>Stay Connected</h4>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1W6wU-Om4xU_nQKsn_U-bMnh0-87F0-1o/view?usp=sharing">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/aidanvyn/">LinkedIn</a></li>
+                <li><a href="mailto:aidanvyn@umich.edu">Email</a></li>
+                <li><a href="https://umich.joinhandshake.com/profiles/aidanvyn">Handshake</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
 </body>

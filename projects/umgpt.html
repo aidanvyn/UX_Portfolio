@@ -2,35 +2,111 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>U-M GPT Redesign Project</title>
 </head>
 
 <body>
-  <header>
+   <header>
         <div class="header-content">
             <h1><a href="../index.html">Aidan Vyn</a></h1>
             <nav class="navbar">
-            <!-- Toggle button (Hamburger icon) -->
-            <button class="toggle-btn" id="menuToggle">☰</button>
-            <!-- Navigation Links -->
-            <ul class="nav-links" id="navLinks">
-                <li><a href="pages/work.html">All Work</a></li>
-                <li><a href="pages/about.html">About Me</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
+                <!-- Toggle button (Hamburger icon) -->
+                <button class="toggle-btn" id="menuToggle">☰</button>
+                
+                <div class="nav-overlay" id="navOverlay"></div>
+
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="navLinks">
+                    <li class="nav-close">
+                        <button class="close-button" id="closeButton">✕</button>
+                    </li>
+                    <li><a href="../pages/work.html">All Work</a></li>
+                    <li><a href="../pages/about.html">About Me</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
             </nav>
-
-
         </div>
-  </header>
+    </header>
 
   <main>
     <h1>U-M GPT Website Redesign</h1>
-
-  <!--Image-->
   
+    <div class="metadata">
+        <p>Dates: September 1 to December 5, 2026</p>
+    </div>
+
+    <div class="summary">
+        <h2>Summary</h2>
+        <p>Over a semester, I created a redesign for the official UM-GPT website through Michigan's Information Technology services. Across U-M, I found a common issue that students and professors alike were having issues with locating rooms within buildings. In this new design, I believed this issue would be solved through U-M GPT, which would have access to maps of Michigan buildings.</p>
+        <p>Throughout my process I sketched, wireframed, and ended with a high-fidelity design. I focused on improving users' understanding of UM-GPT's benefits through the landing page, and added additional features such as location services to the product.</p>
+        <div class="summary-image">
+            <img src="../images/umgpt-summary.png" alt="Summary of designs, showing off a mobile and desktop image">
+        </div>
+    </div>
+
+    <div class="starting-point">
+        <h2>Starting Point</h2>
+        <p>The original UMGPT website had decent usability, but struggled with overall personality and keeping up with current AI models user interfaces.</p>
+        <p>Overall, the site could use an improvement in its UI through its organization of chats and user settings. These improvements would help reach the goal of getting more students to utilize the site.</p>
+
+        <div class="starting-point-image">
+            <img src="../images/umgpt-comp.png" alt="Comparision chart showing U-M GPT's qualities against other AI tools">
+        </div>
+    </div>
+
+    <div class="problem-solving">
+        <h2>Problem Solving</h2>
+        <p>My goal was to maintain specific Michigan branding while implementing new features to help students daily lives.</p>
+        <p>I began with creating wireframes and brainstorming how to improve information structure without compromising visual identity.</p>
+
+        <div class="problem-solving-image">
+            <img src="../images/umgpt-problemsolving.png" alt="Greyscale wireframes showing user paths and potential designs">
+        </div>
+    </div>
+
+    <div class="implementation">
+        <h2>Implementation</h2>
+        <p>I first redesigned the landing page, which provided valuable information to potential users. The page described the benefits of UMGPT over mainstream AI services, its use cases, and other Michigan AI tools.</p>
+        <p>I created an extensive component library to ensure the design process was efficient.</p>
+    
+        <div class="implementation-image">
+            <img src="../images/umgpt-implementation.png" alt="Mobile and Desktop Frames showing highlights from the landing page">
+        </div>
+    </div>
+
+    <div class="results">
+        <h2>Results</h2>
+        <p>After the redesign, Michigan students and faculty had a new feature: Location services.</p>
+        <p> This allowed users to find the nearest dining hall, bus stop, and their classrooms.</p>
+        <p>Additionally, navigation was improved through clearly labeling hierarchy in the left navbar.</p>
+
+        <div class="results-image">
+            <img src="../images/umgpt-results.png" alt="4 final frames from the U-M GPT Website Redesign">
+        </div>
+    </div>
   </main>
+  <footer>
+        <div class="footer-list1">
+            <h4>Pages</h4>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/work.html">All Work</a></li>
+                    <li><a href="../pages/about.html">About Me</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+        </div>
+        <div class="footer-list2">
+            <h4>Stay Connected</h4>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1W6wU-Om4xU_nQKsn_U-bMnh0-87F0-1o/view?usp=sharing">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/aidanvyn/">LinkedIn</a></li>
+                <li><a href="mailto:aidanvyn@umich.edu">Email</a></li>
+                <li><a href="https://umich.joinhandshake.com/profiles/aidanvyn">Handshake</a></li>
+            </ul>
+        </div>
+    </footer>
+  <script src="../js/index.js"></script>
 </body>
