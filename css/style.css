@@ -240,6 +240,10 @@ footer h4 {
     margin: 0.25rem 0;
 }
 
+.about-title img {
+    border-radius: 1rem;
+}
+
 .Outside h3 {
     text-align: center;
     font-size: 2rem;
@@ -297,7 +301,7 @@ footer h4 {
 }
 
 /* PROJECT PAGE STYLING */
-body > h1 {
+main > h1 {
     text-align: center;
     margin: 3rem 5% 1rem 5%;
     font-size: 2.5rem;
